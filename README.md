@@ -26,8 +26,8 @@
 
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME= \
+MLFLOW_TRACKING_URI=https://dagshub.com/imkishor16/Cancer-Classification-.mlflow \
+MLFLOW_TRACKING_USERNAME=imkishor16 \
 MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
