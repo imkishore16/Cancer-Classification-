@@ -1,0 +1,21 @@
+artifacts_root: artifacts # a folder with this name will be created
+
+# data ingestion related configurations
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+# based on the above config , a folder with the name artifacts will be created.
+# inside with another folder "data_ingestion" will be created
+# the data from source_url will be downloaded and stored in artifacts/data_ingestion
+#  and it will be unzipped
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5
+  updated_base_model_path: artifacts/prepare_base_model_/base_model_updated.h5
+
+training:
+  root_dir: artifacts/training # this key will be read to get the create the folder
+  trained_model_path: artifacts/training/model.h5 # and this will be to store the model
