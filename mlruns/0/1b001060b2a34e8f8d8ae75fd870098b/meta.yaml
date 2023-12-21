@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Visual%20Studio%202019/MLops/Chest%20Cancer%20Detection%20suing%20MLFlow%20and%20DVC/mlruns/0/1b001060b2a34e8f8d8ae75fd870098b/artifacts
+end_time: 1703081515347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b001060b2a34e8f8d8ae75fd870098b
+run_name: carefree-snail-298
+run_uuid: 1b001060b2a34e8f8d8ae75fd870098b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703081513099
+status: 4
+tags: []
+user_id: kishore
