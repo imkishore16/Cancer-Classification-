@@ -34,8 +34,8 @@ python script.py
 ### DVC cmd
 
 1. dvc init
-2. dvc repro
-3. dvc dag
+2. dvc repro -- to run the dvc.yaml file
+3. dvc dag --to visualize the pipelinee in the cmd
 
 ## About MLflow & DVC
 

@@ -4,6 +4,7 @@ artifacts_root: artifacts # a folder with this name will be created
 data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing
+  # source_URL: https://drive.google.com/file/d/1_TXlYEi89zDKYO84Pj0_IRHolN-HTy3N/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 # based on the above config , a folder with the name artifacts will be created.

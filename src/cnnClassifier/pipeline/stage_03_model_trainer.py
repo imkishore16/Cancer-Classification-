@@ -3,6 +3,7 @@ from src.cnnClassifier.components.model_trainer import Training
 from src.cnnClassifier import logger
 
 
+
 STAGE_NAME="Training"
 class ModelTrainingPipeline:
     def __init__(skef):

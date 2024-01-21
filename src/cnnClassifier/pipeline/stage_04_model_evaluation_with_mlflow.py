@@ -4,6 +4,7 @@ from src.cnnClassifier import logger
 
 
 
+
 STAGE_NAME = "Evaluation stage"
 class EvaluationPipeline:
     def __init__(self):

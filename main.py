@@ -5,6 +5,7 @@ from src.cnnClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipel
 from src.cnnClassifier.pipeline.stage_04_model_evaluation_with_mlflow import EvaluationPipeline
 import os
 
+
 logger.info("Welcom to CNN_Classifier")
 
 STAGE_NAME ="Data Ingestion Stage"
@@ -51,7 +52,9 @@ try:
     model_evalution = EvaluationPipeline()
     model_evalution.main()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
-
+    
 except Exception as e:
     logger.exception(e)
     raise e
+
+logger.info(f">>>> ALL STAGES COMPLETED <<<<<")
